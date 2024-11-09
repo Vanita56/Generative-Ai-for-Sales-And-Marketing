@@ -1,0 +1,37 @@
+import streamlit as st
+/* styles.css */
+
+/* Header */
+.stApp header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.stApp h1 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Text input */
+.stTextInput>div>div>div>input {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Button */
+.stButton>button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.stButton>button:hover {
+    background-color: #0056b3;
+}
